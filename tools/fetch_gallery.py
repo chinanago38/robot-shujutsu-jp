@@ -9,7 +9,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = {"User-Agent": "robot-shujutsu-jp-photo-bot/1.0 (https://xn--9ckk2d5c5326aby6b.jp/; info@chinanago.jp)"}
 AVOID = ["map", "地図", "logo", "icon", "svg", "flag", "diagram", "chart", "emblem", "insignia", "ensign", "seal",
          "patch", "badge", "crest", "plan", "drawing", "model", "模型", "stamp", "postcard", "interior", "crew", 
-         "memorial", "bridge of", "galley", "uniform"]
+         "memorial", "science_fiction", "niobe", "snake", "bridge of", "galley", "uniform"]
 ANGLES = [("前から", ["bow", "front", "head on", "head-on", "艦首", "前方", "正面"]),
           ("後ろから", ["stern", "rear", "aft view", "from aft", "艦尾", "後方", "astern", "transom"]),
           ("横から", ["broadside", "side view", "port side", "starboard side", "portside", "starboard", "port bow", "側面", "profile", "underway", "航行"])]

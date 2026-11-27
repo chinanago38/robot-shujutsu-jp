@@ -264,7 +264,7 @@ def top_hero(body):
     credit = (f'<p class="credit">写真：{esc(ph[6])} {esc(ph[3])} / <a href="{esc(ph[5])}" rel="noopener license" target="_blank">{esc(ph[4])}</a>'
               f'（<a href="{esc(ph[2])}" rel="noopener" target="_blank">Wikimedia Commons</a>）</p>') if ph else ""
     return (f'<section class="tophero"{bg}><div class="inner"><p class="kicker">ロボット支援手術の基礎知識・保険・費用</p>'
-            f'<h1>ロボット手術を<br>受ける前に知っておきたいこと</h1><p class="lead">どの手術に保険が使えるのか、費用はどのくらいか。厚生労働省などの公的資料をもとに、患者の立場でまとめています。個人運営の非公式サイトです。</p>'
+            f'<h1>ロボット手術を<br>受ける前に知っておきたいこと</h1><p class="lead">どの手術に保険が使えるのか、費用はどのくらいか。厚生労働省などの公的資料をもとに、患者の立場でまとめています。</p>'
             f'<div class="cta"><a class="btn" href="/hoken/jutsushiki/">保険が使える手術</a><a class="btn ghost" href="/kiso/robot/">ロボット手術とは</a></div></div>{credit}</section>\n')
 
 def next_events():
@@ -446,7 +446,7 @@ def render(url, title, desc, body):
 {main}</div></main>
 
 <footer class="site"><div class="wrap">
-  <p>ロボット手術.jp は、ロボット支援手術の基礎知識と保険・費用を公的資料からまとめた個人運営の情報サイトです。医療機関・厚生労働省・医療機器メーカーの公式サイトではありません。掲載内容は一般的な説明であり、診断や治療の助言ではありません。手術については必ず主治医にご相談ください。</p>
+  <p>ロボット手術.jp は、ロボット支援手術の基礎知識と保険・費用を公的資料からまとめた情報サイトです。医療機関・厚生労働省・医療機器メーカーとは関係のない、ちんあなご編集部のサイトです。掲載内容は一般的な説明であり、診断や治療の助言ではありません。手術については必ず主治医にご相談ください。</p>
   <p>{" ・ ".join(f'<a href="{u}">{t}</a>' for t, u in [("トップ", "/")] + NAV)}</p>
   <p><a href="/operator/">運営者情報</a> ・ <a href="/editorial-policy/">編集方針</a> ・ <a href="/contact/">お問い合わせ</a> ・ <a href="/privacy/">プライバシーポリシー</a> ・ <a href="/disclaimer/">免責事項</a></p>
   <p>© 2026 ロボット手術.jp</p>
